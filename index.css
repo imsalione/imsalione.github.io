@@ -8,3 +8,8 @@ table{
     direction: ltr;
     text-justify: auto;
 }
+
+td{
+    width: 400;
+    height: 400;
+}
