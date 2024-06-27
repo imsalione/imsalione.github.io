@@ -16,14 +16,13 @@ html, body{
     padding: 20px;
 }
 
-.introtable{
+table{
     align-self: center;
-    border: 1px solid white;
     border-radius: 10px;
     border-collapse: collapse;
 }
 
-.introtd{
+table, td, th{
     width: 400;
     height: 280;
     margin: 20px;
