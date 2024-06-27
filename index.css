@@ -6,13 +6,21 @@ html, body{
     justify-content: center;
     align-items: center;
     display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .introtable{
     align-self: center;
     border: 1px solid white;
     border-radius: 10px;
-    
+    border-collapse: collapse;
 }
 
 .introtd{
@@ -31,4 +39,22 @@ html, body{
 .imgprofile{
     border-radius: 10px 10px 0 0;
     border: 5px solid white;
+}
+
+@media (max-width: 600px){
+    .container {
+        padding: 10px;
+    }
+
+    table, th, td{
+        padding: 5px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 14px;
+    }
 }
