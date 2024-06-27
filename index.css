@@ -1,14 +1,18 @@
-body{
+html, body{
     background-color: #454545;
     align-content: center;
     vertical-align: middle;
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .introtable{
     align-self: center;
     border: 1px solid white;
     border-radius: 10px;
+    
 }
 
 .introtd{
