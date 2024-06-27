@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+}
+
+table{
+    align-items: center;
+    align-content: center;
+    direction: ltr;
+    text-justify: auto;
+}
