@@ -1,15 +1,30 @@
 body{
-    background-color: gray;
-}
-
-table{
-    align-items: center;
+    background-color: #454545;
     align-content: center;
-    direction: ltr;
-    text-justify: auto;
+    vertical-align: middle;
+    align-items: center;
 }
 
-td{
+.introtable{
+    align-self: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.introtd{
     width: 400;
-    height: 400;
+    height: 280;
+    margin: 20px;
+    padding: 5px;
+}
+
+.intro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(219, 219, 219);
+    text-align: left;
+}
+
+.imgprofile{
+    border-radius: 10px 10px 0 0;
+    border: 5px solid white;
 }
