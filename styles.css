@@ -17,6 +17,25 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     text-align: center;
+    border-radius: 10px;
+}
+
+.language-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.language-buttons .flag {
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.language-buttons .flag:hover {
+    transform: scale(1.1);
 }
 
 .profile-pic {

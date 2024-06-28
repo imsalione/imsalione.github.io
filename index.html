@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="wrapper">
+        
         <header class="header">
             <img src="https://imsalione.ir/wp-content/uploads/2023/08/NAZ088211-01-400x400.jpeg" alt="Profile Picture" class="profile-pic">
             <h1>Hello! I'm Saleh Abedinezhad</h1>
         </header>
+        <div class="language-buttons">
+            <img src="flags/english-flag.png" id="englishBtn" alt="English" class="flag">
+            <img src="https://www.flaticon.com/free-icons/persian" id="farsiBtn" alt="فارسی" class="flag">
+        </div>
         <main class="content">
-            <p>A passionate data analyst dedicated to uncovering insights from complex datasets. My journey in the realm of data began during my Computer Science studies, where I was captivated by the power of data-driven decision-making. I specialize in transforming raw data into actionable insights by combining analytical skills with programming expertise. With a strong foundation in statistics and machine learning, I excel at exploring data, identifying patterns, and extracting valuable information that drives informed business decisions.</p>
+            <p id="englishText">A passionate data analyst dedicated to uncovering insights from complex datasets...</p>
+            <p id="farsiText" style="display: none;">یک تحلیل‌گر داده‌های پرشور که به کشف بینش‌ها از مجموعه داده‌های پیچیده اختصاص داده شده است...</p>
         </main>
         <footer class="footer">
-            <hr>
             <p>Contact information and social media links.</p>
-                <div class="social-links">
-                    <a href="t.me/imaslione" target="_blank">
-                        <img src="https://github.com/imsalione/imsalione.github.io/blob/main/content/images/telegram.png" title="telegram icons" alt="Telegram"</a>
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank">
-                        <img src="icons/twitter.png" alt="Twitter">
-                    </a>
-                    <a href="https://www.linkedin.com" target="_blank">
-                        <img src="icons/linkedin.png" alt="LinkedIn">
-                    </a>
-                </div>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="icons/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img src="icons/twitter.png" alt="Twitter">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img src="icons/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
