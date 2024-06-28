@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/Yekan.woff2') format('ttf'),
+         url('fonts/Yekan.woff') format('ttf');
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -17,6 +23,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     text-align: center;
+    margin: 10px;
     border-radius: 10px;
 }
 
@@ -94,5 +101,11 @@ body {
     .profile-pic {
         width: 100px;
         height: 100px;
+    }
+    .social-links img {
+        width: 15px;
+        height: 15px;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
     }
 }
