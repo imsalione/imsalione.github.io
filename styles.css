@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Yekan';
-    src: url('fonts/Yekan.woff2') format('ttf'),
-         url('fonts/Yekan.woff') format('ttf');
+    font-family: 'IRANYekan-Black';
+    src: url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekan-Black.ttf') format('ttf'),
+         url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekan-Black.ttf') format('ttf');
 }
 
 body {
@@ -15,6 +15,11 @@ body {
     background-color: #f0f0f0;
 }
 
+#farsiText {
+    font-family: 'IRANYekan-Black', sans-serif;
+    direction: rtl;
+}
+
 .wrapper {
     width: 100%;
     max-width: 500px;
@@ -23,7 +28,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     text-align: center;
-    margin: 10px;
+    margin: 0 10px 0 10px;
     border-radius: 10px;
 }
 
@@ -42,7 +47,7 @@ body {
 }
 
 .language-buttons .flag:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .profile-pic {
