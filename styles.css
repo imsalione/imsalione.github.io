@@ -1,7 +1,14 @@
+/*
+IranYekanX fonts are considered a proprietary software. To gain information about the laws 
+regarding the use of these fonts, please visit www.fontiran.com
+---------------------------------------------------------------------
+This set of fonts are used in this project under the license: (JAD73N80)
+---------------------------------------------------------------------
+*/
 @font-face {
     font-family: 'IRANYekan-Black';
-    src: url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekan-Black.ttf') format('ttf'),
-         url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekan-Black.ttf') format('ttf');
+    src: url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekanX-Bold.woff2') format('woff2'),
+         url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekanX-Regular.woff2') format('woff2');
 }
 
 body {
@@ -77,6 +84,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    direction: ltr;
 }
 
 .social-links img {
