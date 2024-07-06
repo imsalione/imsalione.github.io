@@ -6,7 +6,7 @@ This set of fonts are used in this project under the license: JAD73N80
 ---------------------------------------------------------------------
 */
 @font-face {
-    font-family: 'IRANYekan-Black';
+    font-family: 'IRANYekan';
     src: url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekanX-Bold.woff2') format('woff2'),
          url('https://github.com/imsalione/imsalione.github.io/blob/main/content/fonts/IRANYekanX-Regular.woff2') format('woff2');
 }
@@ -23,7 +23,7 @@ body {
 }
 
 #farsiText {
-    font-family: 'IRANYekan-Black', sans-serif;
+    font-family: 'IRANYekan' , sans-serif;
     direction: rtl;
 }
 
